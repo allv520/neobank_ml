@@ -35,25 +35,25 @@
 
 ### 📈 ROC-кривые моделей
 
-<img src="docs/screenshots/roc_curves.png" alt="ROC curves" width="100%"/>
+<img src="docs/screenshots/roc_curves.jpg" alt="ROC curves" width="100%"/>
 
 ### 🏆 Важность признаков (Random Forest)
 
-<img src="docs/screenshots/feature_importance.png" alt="Feature importance" width="100%"/>
+<img src="docs/screenshots/feature_importance.jpg" alt="Feature importance" width="100%"/>
 
 ### ⚖️ Сравнение ML vs аддитивной свёртки
 
-<img src="docs/screenshots/comparison.png" alt="Comparison" width="100%"/>
+<img src="docs/screenshots/comparison.jpg" alt="Comparison" width="100%"/>
 
 ### 🚀 Swagger UI — тестирование ML-сервиса
 
 **Request — признаки пользователя:**
 
-<img src="docs/screenshots/swagger_request.png" alt="Swagger Request" width="100%"/>
+<img src="docs/screenshots/swagger_request.jpg" alt="Swagger Request" width="100%"/>
 
 **Response — предсказанная ставка:**
 
-<img src="docs/screenshots/swagger_response.png" alt="Swagger Response" width="100%"/>
+<img src="docs/screenshots/swagger_response.jpg" alt="Swagger Response" width="100%"/>
 
 ---
 
