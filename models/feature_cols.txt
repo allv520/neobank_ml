@@ -1,0 +1,8 @@
+income
+expense
+debt_ratio
+balance
+active_cards
+days_on_platform
+closed_credits
+has_overdue

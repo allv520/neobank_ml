@@ -179,3 +179,28 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (тяжёлые CSV)
+data/*.csv
+!data/.gitkeep
+
+# Models (большие .pkl)
+models/*.pkl
+models/*.joblib
+!models/.gitkeep
+
+# Virtual env
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
