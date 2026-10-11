@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.14-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/scikit--learn-1.9-F7931E?style=for-the-badge" alt="scikit-learn"/>
+  [<img src="https://img.shields.io/badge/scikit--learn-1.9-F7931E?style=for-the-badge" alt="scikit-learn"/>](https://img.shields.io/badge/scikit--learn-1.9-F7931E?style=for-the-badge)
   <img src="https://img.shields.io/badge/FastAPI-0.115-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter"/>
   <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas"/>
