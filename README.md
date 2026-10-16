@@ -304,7 +304,7 @@ neobank_ml/
 
 Этот ML-модуль используется в **NEOBANK** - банковской платформе на React + Node.js:
 
-👉 [**NEOBANK — основная платформа**](https://github.com/allv520/NeoBank)
+👉 [**NEOBANK - основная платформа**](https://github.com/allv520/NeoBank)
 
 **Как это работает:**
 
