@@ -1,4 +1,4 @@
-# 🤖 NEOBANK-ML — Machine Learning Credit Scoring
+# 🤖 NEOBANK-ML - Machine Learning Credit Scoring
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.14-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
@@ -17,15 +17,15 @@
 
 ## 📖 О проекте
 
-**NEOBANK-ML** — это ML-модуль для банковской платформы [NEOBANK](https://github.com/allv520/NeoBank).
+**NEOBANK-ML** - это ML-модуль для банковской платформы [NEOBANK](https://github.com/allv520/NeoBank).
 
 Модуль реализует **полный ML-пайплайн** для кредитного скоринга:
 
-- 📊 **Анализ данных (EDA)** — загрузка из PostgreSQL, визуализация
-- 🛠️ **Feature engineering** — сбор 8 признаков кредитоспособности
-- 🤖 **Обучение моделей** — Logistic Regression, Random Forest, Decision Tree
-- 📏 **Оценка метрик** — ROC-AUC, Precision, Recall, F1
-- 🚀 **Деплой** — FastAPI-микросервис для интеграции с Node.js
+- 📊 **Анализ данных (EDA)** - загрузка из PostgreSQL, визуализация
+- 🛠️ **Feature engineering** - сбор 8 признаков кредитоспособности
+- 🤖 **Обучение моделей** - Logistic Regression, Random Forest, Decision Tree
+- 📏 **Оценка метрик** - ROC-AUC, Precision, Recall, F1
+- 🚀 **Деплой** - FastAPI-микросервис для интеграции с Node.js
 
 **Цель проекта:** заменить классическую аддитивную свёртку на ML-модель для **более точного и калиброванного** кредитного скоринга.
 
@@ -45,13 +45,13 @@
 
 <img src="docs/screenshots/comparison.jpg" alt="Comparison" width="100%"/>
 
-### 🚀 Swagger UI — тестирование ML-сервиса
+### 🚀 Swagger UI - тестирование ML-сервиса
 
-**Request — признаки пользователя:**
+**Request - признаки пользователя:**
 
 <img src="docs/screenshots/swagger_request.jpg" alt="Swagger Request" width="100%"/>
 
-**Response — предсказанная ставка:**
+**Response - предсказанная ставка:**
 
 <img src="docs/screenshots/swagger_response.jpg" alt="Swagger Response" width="100%"/>
 
@@ -122,7 +122,7 @@
 | Logistic Regression | 0.770 | 0.529 | 0.191 | 0.281 | 0.675 |
 | Decision Tree | 0.730 | 0.333 | 0.149 | 0.206 | 0.667 |
 
-**Random Forest** показал лучший ROC-AUC (0.727), но **Logistic Regression** — лучше интерпретируется (подходит для банков).
+**Random Forest** показал лучший ROC-AUC (0.727), но **Logistic Regression** - лучше интерпретируется (подходит для банков).
 
 ### 🏆 Feature Importance (Random Forest)
 
@@ -137,7 +137,7 @@
 | `active_cards` | 0.041 | Количество активных карт |
 | `closed_credits` | 0.039 | Погашенные кредиты |
 
-**Вывод:** `debt_ratio` — самый важный признак. Это логично: отношение расходов к доходам прямо показывает **финансовую нагрузку** клиента.
+**Вывод:** `debt_ratio` - самый важный признак. Это логично: отношение расходов к доходам прямо показывает **финансовую нагрузку** клиента.
 
 ---
 
@@ -205,13 +205,13 @@ jupyter notebook
 ```
 
 Открой ноутбуки **по порядку**:
-- `01_первый_анализ.ipynb` — выгрузка данных из БД
-- `02_EDA.ipynb` — разведочный анализ
-- `03_features.ipynb` — сбор признаков
-- `04_target_and_data.ipynb` — целевая переменная + синтетика
-- `05_ml_model.ipynb` — обучение моделей
-- `06_comparison.ipynb` — сравнение с аддитивной
-- `07_save_model.ipynb` — сохранение в `.pkl`
+- `01_первый_анализ.ipynb` - выгрузка данных из БД
+- `02_EDA.ipynb` - разведочный анализ
+- `03_features.ipynb` - сбор признаков
+- `04_target_and_data.ipynb` - целевая переменная + синтетика
+- `05_ml_model.ipynb` - обучение моделей
+- `06_comparison.ipynb` - сравнение с аддитивной
+- `07_save_model.ipynb` - сохранение в `.pkl`
 
 ### 5. Запуск FastAPI-сервиса
 
@@ -302,7 +302,7 @@ neobank_ml/
 
 ## 🔗 Связь с основным проектом
 
-Этот ML-модуль используется в **NEOBANK** — банковской платформе на React + Node.js:
+Этот ML-модуль используется в **NEOBANK** - банковской платформе на React + Node.js:
 
 👉 [**NEOBANK — основная платформа**](https://github.com/allv520/NeoBank)
 
@@ -318,7 +318,7 @@ neobank_ml/
 
 ## 🎯 В планах развития
 
-- 🤖 Замена LogReg на **XGBoost** — повышение ROC-AUC до 0.85+
+- 🤖 Замена LogReg на **XGBoost** - повышение ROC-AUC до 0.85+
 - 📈 Прогнозирование расходов (time series, Prophet)
 - 🏷️ Автоклассификация транзакций (NLP, TF-IDF)
 - 🔍 Детекция фрода (Isolation Forest, autoencoder)
@@ -330,9 +330,8 @@ neobank_ml/
 
 **Алиева Алина Саидовна**
 
-Специальность: `09.02.07 — Информационные системы и программирование`
+Специальность: `09.02.07 - Информационные системы и программирование`
 Московский колледж управления, гостиничного бизнеса и информационных технологий «Царицыно»
-📍 Москва, 2026
 
 ---
 
